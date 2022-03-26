@@ -203,7 +203,7 @@ void CounterclockwiseSpiral()
 	}
 }
 
-void ÑlockwiseSpiral()
+void ClockwiseSpiral()
 {
 	const int N = 6;
 	int arr[N][N] = {};
@@ -254,5 +254,5 @@ int main()
 	std::cout << std::endl;
 	CounterclockwiseSpiral();
 	std::cout << std::endl;
-	ÑlockwiseSpiral();
+	ClockwiseSpiral();
 }
